@@ -2,7 +2,7 @@ import streamlit as st
 from groq import Groq
 import os
 # Initialize the Groq client
-client = Groq(api_key="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")
+client = Groq(api_key="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")
 
 def save_qa_to_file(chapter, verse, qa_text):
     # Create a folder named 'QnA' if it doesn't exist
